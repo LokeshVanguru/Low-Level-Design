@@ -1,0 +1,3 @@
+Liskov Substitution Principle:
+  It states that objects of superclass should be replaceable
+  with objects of subclasses without altering correctness of program.
