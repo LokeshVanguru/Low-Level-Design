@@ -1,0 +1,6 @@
+INTERFACE SEGREGATION PRINCIPLE
+DEFI:
+     ensures that classes are not burdened with methods they dont't need.
+     it promotes better breaking the interfaces into smaller ones
+
+     like badcode -----> goodcode
