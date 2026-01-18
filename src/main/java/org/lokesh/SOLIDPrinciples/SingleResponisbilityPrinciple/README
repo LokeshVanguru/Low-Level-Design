@@ -1,0 +1,26 @@
+Single Responsibility Principle
+Definition:A class should have one reason to change ,means it should only have one responsibility
+
+bad come example:
+    In the Invoice class, we are performing three different responsibilities:
+
+    Generating the invoice
+
+    Saving the invoice to the database
+
+    Sending notifications
+
+    If we want to change any functionality (for example, database logic or notification logic),
+    we must modify the Invoice class itself.
+
+GoodCode Example:
+    In the good design, we create separate classes for each responsibility:
+
+    Invoice → Invoice generation
+
+    InvoiceRepository → Database operations
+
+    NotificationService → Sending notifications
+
+    Now, if we need to change any one functionality,
+    we can modify the corresponding class without affecting the others.
