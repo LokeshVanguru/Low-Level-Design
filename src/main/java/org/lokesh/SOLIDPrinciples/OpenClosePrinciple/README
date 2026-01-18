@@ -1,0 +1,5 @@
+OPEN-CLOSED PRINCIPLE:
+DEFI:
+    open for extension
+    closed for modification
+    we can add new functionalities without changeing the existing code
