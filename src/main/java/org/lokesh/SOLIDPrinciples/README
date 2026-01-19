@@ -1,0 +1,66 @@
+SOLID Principles:
+-->REduce tight coupling
+-->Increase code Reusability
+-->Make code easy to maintain
+-->clean Architecture
+-->set of design rules to make software flexible
+
+where we can use ?
+-->java/OOP-based Projects
+-->BackEnd Applications
+-->Large Enterprise applications
+-->Microservices
+
+----------------------------------------------------
+
+S--->Single Responsibility Principle:
+
+A class should have one reason to change.
+one class---one responsibility
+
+-------------------------------------------------------
+
+O-->Open / Closed Principle
+
+software entities open for extension,
+closed for modification.
+-->you can add new behaviour.
+-->without changing existing code.
+-->Use Interfaces and Abstract classes.
+
+-------------------------------------------------------
+
+L-->Liskov Substitution Principle
+
+Child class Object Should be replaceable
+for parent class without breaking behaviour.
+
+-->subclass should behave like parent.
+-->dont force child classes to implement invalid methods.
+
+-------------------------------------------------------
+
+I-->Interface Segregation Principle
+
+Clients should not be forced to implement interfaces they don't use
+
+-->create small ,Specific Interfaces
+-->Not one big interface
+-->prefer Multiple Interfaces
+
+------------------------------------------------------------
+
+D-->Dependency Inversion Principle
+
+High level Modules should not depend on low level modules.
+Both depend on Abstraction
+
+-->Depend on Interfaces,not Concrete Classes
+
+-----------------------------------------------------------
+
+SRP--> One Class---One Responsibility
+OCP--> open for Extend,close for modification
+LSP--> Subclass must Behave like Parent
+ISP-->Many Small Interfaces
+DIP-->Depend on interfaces,not Classes.
