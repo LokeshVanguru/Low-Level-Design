@@ -1,0 +1,11 @@
+Behavioral Design Patterns focus on how objects communicate and interact with each other.
+
+-->How responsibilities are shared.
+
+-->How behavior is selected or changed.
+
+-->How objects collaborate without tight coupling.
+
+Strategy Pattern--------------------------------------
+
+Strategy Pattern is behavioral because it defines and switches object behavior dynamically.
