@@ -1,0 +1,31 @@
+--->Strategy Pattern is a behavioral design pattern that lets you define a family of algorithms,
+put each one in a separate class, and make them interchangeable at runtime.
+
+--->“Choose the behavior at runtime without changing the object.”
+
+--->When we need to select one option or behavior from multiple choices at runtime, we use the Strategy Pattern.”
+
+----------------------------------Without Strategy Pattern:
+
+Too many if-else or switch statements
+
+One class doing too many things
+
+Hard to add new behavior
+
+Violates Open–Closed Principle
+
+-----------------------------------With Strategy Pattern:
+
+Each behavior is isolated
+
+Easy to add new behavior
+
+Cleaner and flexible design
+
+-----Real Applications of strategy pattern
+
+Payment Methods
+Travel Selections like bike,bus,car
+Sorting Algorithms based on Data Size
+Authentication Methods like user+pass,Otp,Biometric
