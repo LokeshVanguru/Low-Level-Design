@@ -31,7 +31,7 @@ class JSONParser{
     public void parser()
     {
         openFile();
-        //Parsing logic done
+        //Parsing logic
         System.out.println("JSON PArsing");
         closeFile();
     }
